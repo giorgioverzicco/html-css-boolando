@@ -9,13 +9,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Debug */
-.debug .product {
-  background-color: green;
-  min-height: 450px;
-  max-width: 300px;
-}
-
 /* Commons */
 .container {
   max-width: 1000px;
