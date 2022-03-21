@@ -30,3 +30,19 @@
   width: calc(100% / 3 - 16px);
   margin: 0 8px;
 }
+
+.product-slideshow img {
+  width: 100%;
+}
+
+.product-img-hover {
+  display: none;
+}
+
+.product:hover .product-img {
+  display: none;
+}
+
+.product:hover .product-img-hover {
+  display: block;
+}
