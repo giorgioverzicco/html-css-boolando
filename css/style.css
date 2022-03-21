@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Debug */
 .debug .product {
   background-color: green;
@@ -54,7 +58,7 @@
 .product-btn-wishlist {
   display: none;
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 0;
   background-color: #fff;
   border: 0;
@@ -64,4 +68,24 @@
 
 .product:hover .product-btn-wishlist {
   display: block;
+}
+
+.product-tags {
+  position: absolute;
+  bottom: calc(15px + 6px);
+  left: 0;
+}
+
+.tag {
+  padding: 3px;
+  font-size: 10px;
+  color: #fff;
+}
+
+.tag-discount {
+  background-color: #eb0037;
+}
+
+.tag-sustainability {
+  background-color: #00875a;
 }
