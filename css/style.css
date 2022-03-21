@@ -31,6 +31,10 @@
   margin: 0 8px;
 }
 
+.product-slideshow {
+  position: relative;
+}
+
 .product-slideshow img {
   width: 100%;
 }
@@ -44,5 +48,20 @@
 }
 
 .product:hover .product-img-hover {
+  display: block;
+}
+
+.product-btn-wishlist {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: #fff;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.product:hover .product-btn-wishlist {
   display: block;
 }
