@@ -41,9 +41,10 @@ body {
 
 .product-slideshow img {
   width: 100%;
+  display: block;
 }
 
-.product-img-hover {
+.product .product-img-hover {
   display: none;
 }
 
