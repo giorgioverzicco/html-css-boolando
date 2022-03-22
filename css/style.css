@@ -66,11 +66,12 @@ body {
 
 .product-tags {
   position: absolute;
-  bottom: calc(15px + 6px);
+  bottom: calc(15px);
   left: 0;
 }
 
 .tag {
+  display: inline-block;
   padding: 3px;
   font-size: 10px;
   color: #fff;
